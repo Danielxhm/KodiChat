@@ -16,6 +16,7 @@ const useClickOutside = (ref, handler) => {
   }, [ref, handler]);
 };
 
+ const handleRecordAudio = () => {}; //simulado
 const ChatPanel = ({ activeChat, onGoBack }) => {
   // Estado para el texto del mensaje
   const [message, setMessage] = useState('');

@@ -105,7 +105,7 @@ const ChatList = ({ onSelectChat, activeChat }) => {
         
         {/* Header con título y botón para buscar usuarios */}
         <header className="flex items-center justify-between p-4 border-b border-zinc-800 shrink-0">
-          <h1 className="text-2xl font-bold text-gray-100">DanielChat</h1>
+          <h1 className="text-2xl font-bold text-gray-100">KodiChat</h1>
           <button onClick={() => setIsSearchOpen(true)} className="p-2 rounded-full text-gray-400 hover:bg-zinc-800 hover:text-white transition-colors">
             <MessageSquarePlus className="w-6 h-6" />
           </button>

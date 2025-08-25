@@ -1,12 +1,29 @@
-# React + Vite
+KODIChat es una aplicación de mensajería en tiempo real desarrollada con React + Vite e integrada con Firebase. Permite a los usuarios registrarse, iniciar sesión y chatear de forma rápida y segura, con un diseño moderno y responsivo.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Características principales
 
-Currently, two official plugins are available:
+✅ Registro e inicio de sesión con Firebase Authentication
+✅ Chats en tiempo real usando Firebase Firestore (Database)
+✅ Interfaz moderna con TailwindCSS
+✅ Soporte para emojis con emoji-picker-react y frimousse
+✅ Íconos personalizables con lucide-react
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Stack Tecnológico
 
-## Expanding the ESLint configuration
+Frontend: React + Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+UI: TailwindCSS v4.1.12
+
+Backend / Database: Firebase
+
+Authentication
+
+Firestore (Database en tiempo real)
+
+Extras:
+
+emoji-picker-react@4.13.2
+
+frimousse@0.3.0
+
+lucide-react@0.541.0
